@@ -1,0 +1,18 @@
+alias v="vim"
+alias l="ls -1"
+alias c="clear"
+
+# Navigation
+alias dotf="cd $DOTFILES"
+alias desk="cd $HOME/Desktop" 
+alias docs="cd $HOME/Documents"
+alias dls="cd $HOME/Downloads"
+alias code="cd $HOME/Code"
+
+# Tmux
+alias tconf="$EDITOR $HOME/.dotfiles/tmux/.tmux.conf"
+alias tma="tmux attach -t"
+alias tmls="tmux ls"
+alias tmk="tmux kill-session -t"
+alias tmn="tmux new -s"
+
