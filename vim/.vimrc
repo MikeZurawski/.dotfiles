@@ -18,6 +18,7 @@ set smarttab
 set history=1000
 set undolevels=1000
 set wildignore=*.swp,*.bak,*.pyc,*.class
+set splitright
 
 nnoremap j gj
 nnoremap k gk
@@ -31,6 +32,8 @@ let mapleader=","
 nnoremap <leader>d dd
 
 syntax enable
+
+" Goodbye whitespace
 autocmd BufWritePre * %s/\s\+$//e
 
 execute pathogen#infect()

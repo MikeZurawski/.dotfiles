@@ -1,10 +1,10 @@
 alias v="vim"
-alias l="ls -1"
+alias ll="ls -1"
 alias c="clear"
 
 # Navigation
 alias dotf="cd $DOTFILES"
-alias desk="cd $HOME/Desktop" 
+alias desk="cd $HOME/Desktop"
 alias docs="cd $HOME/Documents"
 alias dls="cd $HOME/Downloads"
 alias code="cd $HOME/Code"
